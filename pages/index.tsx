@@ -30,9 +30,9 @@ const Home: NextPage = () => {
 
         <StyledIntroWrapper>
           <p>
-            I love building accessible and easy to use products. I live in North
+            I love building accessible and easy-to-use products. I live in North
             Vancouver with my partner and elderly cat, Sneaker. When I am not
-            coding I am swordfighting at my local HEMA club or immersing myself
+            coding I am sword fighting at my local HEMA club or immersing myself
             in yogic philosophy.
           </p>
           <p>
