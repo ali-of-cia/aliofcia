@@ -10,7 +10,7 @@ const StyledMain = styled.main`
 `;
 
 const StyledIntroWrapper = styled.div`
-  padding: 42px 124px 80px;
+  padding: 44px 60px 80px;
 
   & p {
     padding: 0px 0px 24px;
