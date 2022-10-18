@@ -25,7 +25,6 @@ const Footer = () => {
         <StyledLinkWrapper>
           <SocialLink
             src="/assets/images/githubIcon.svg"
-            alt="github"
             text="github"
             link="https://github.com/ali-of-cia"
           />
@@ -33,7 +32,6 @@ const Footer = () => {
         <StyledLinkWrapper>
           <SocialLink
             src="/assets/images/envelopeIcon.svg"
-            alt="email"
             text="email"
             link="mailto:aliciasuttie@proton.me"
           />
@@ -41,7 +39,6 @@ const Footer = () => {
         <StyledLinkWrapper>
           <SocialLink
             src="/assets/images/linkedinIcon.svg"
-            alt="linkedin"
             text="linkedin"
             link="https://www.linkedin.com/in/aliofcia/"
           />

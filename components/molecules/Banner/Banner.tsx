@@ -57,7 +57,7 @@ const Banner = () => {
 
       <Wave />
       <StyledAvatarWrapper>
-        <Avatar source="/assets/images/Alicia.jpeg" alt="Alicia in a forest" />
+        <Avatar source="/assets/images/Alicia.jpeg" alt="" />
       </StyledAvatarWrapper>
     </StyledBanner>
   );
