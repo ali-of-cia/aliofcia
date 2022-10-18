@@ -23,21 +23,14 @@ const StyledLink = styled.a`
 
 interface ILinkProps {
   src: string;
-  alt: string;
   text: string;
   link: string;
 }
 
-const SocialLink = ({ src, alt, text, link }: ILinkProps) => {
+const SocialLink = ({ src, text, link }: ILinkProps) => {
   return (
     <StyledLink href={link} target="_blank">
-      <Image
-        width="24px"
-        height="24px"
-        alt={alt}
-        src={src}
-        aria-hidden="true"
-      />
+      <Image width="24px" height="24px" alt="" src={src} aria-hidden="true" />
       <span>{text}</span>
     </StyledLink>
   );
