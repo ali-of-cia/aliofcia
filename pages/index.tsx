@@ -11,6 +11,10 @@ const StyledMain = styled.main`
 
 const StyledIntroWrapper = styled.div`
   padding: 42px 124px 80px;
+
+  & p {
+    padding: 0px 0px 24px;
+  }
 `;
 
 const Home: NextPage = () => {
@@ -30,6 +34,18 @@ const Home: NextPage = () => {
             Vancouver with my partner and elderly cat, Sneaker. When I am not
             coding I am swordfighting at my local HEMA club or immersing myself
             in yogic philosophy.
+          </p>
+          <p>
+            This site was built using some of my favourite technology - React,
+            Typescript, Styled Components and NextJs. Check out the{" "}
+            <a
+              href="https://github.com/ali-of-cia/aliofcia"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Project Repository
+            </a>{" "}
+            to see how I like to code.
           </p>
         </StyledIntroWrapper>
       </StyledMain>
