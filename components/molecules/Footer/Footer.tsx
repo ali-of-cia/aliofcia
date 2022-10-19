@@ -12,6 +12,7 @@ const StyledIconsWrapper = styled.div`
   flex-direction: row;
   width: 100%;
   justify-content: center;
+  padding-bottom: 24px;
 `;
 
 const StyledLinkWrapper = styled.div`

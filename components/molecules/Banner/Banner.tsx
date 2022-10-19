@@ -20,6 +20,10 @@ const StyledBanner = styled.div`
     url(${Spark.src});
   background-blend-mode: screen;
   color: ${(props) => props.theme.colors.white};
+  margin-bottom: 40px;
+  @media (max-width: 420px) {
+    margin-bottom: 100px;
+  }
 `;
 
 const StyledTextWrapper = styled.div`
